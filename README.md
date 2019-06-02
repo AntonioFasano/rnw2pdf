@@ -1,7 +1,7 @@
 Rnw2PDF
 =======
 
-This is a library for Emacs for [reproducible research](https://yihui.name/knitr/), more specifically: push a key (of your choice) and the [Rnw document](https://raw.githubusercontent.com/yihui/knitr/master/inst/examples/knitr-minimal.Rnw) in your Emacs buffer is converted into a [PDF](https://github.com/yihui/knitr/releases/download/doc/knitr-minimal.pdf) and opened with your PDF viewer. 
+This is an Emacs library  for [reproducible research](https://yihui.name/knitr/), more specifically: push a key (of your choice) and the [Rnw document](https://raw.githubusercontent.com/yihui/knitr/master/inst/examples/knitr-minimal.Rnw) in your Emacs buffer is converted into a [PDF](https://github.com/yihui/knitr/releases/download/doc/knitr-minimal.pdf) and opened with your PDF viewer. 
 
 See the features to learn more
 
@@ -30,13 +30,16 @@ Features
 Prerequisites
 -------------
 
-This package does not require [ESS](https://ess.r-project.org/), [Polymode](https://polymode.github.io/), while you might find covenient to use them together. 
-
-Of course, you need a working R and LaTeX distribution. Specifically, make sure that your LaTeX distribution comes with  [latexmk](https://ctan.org/pkg/latexmk/), which should be the case with major distros,  such as [MiKTeX](https://miktex.org/) or 
+Of course, you need a working [R](https://www.r-project.org/) and LaTeX distribution. Specifically, make sure that your LaTeX distribution comes with  [latexmk](https://ctan.org/pkg/latexmk/), which should be the case with major distros,  such as [MiKTeX](https://miktex.org/) or 
 [TeX Live](https://www.tug.org/texlive/). 
 
+As regards, R to have the Rnw knitted, you need to have the [knitr library](https://yihui.name/knitr) intalled
 
 I have tested this package  with Windows [MiKTeX](https://miktex.org/) and Linux  [TeX Live](https://www.tug.org/texlive/). 
+
+
+This package does not require [ESS](https://ess.r-project.org/), [Polymode](https://polymode.github.io/), while you might find covenient to use them together. 
+
 
 Setup
 -----
